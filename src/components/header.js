@@ -27,7 +27,7 @@ const Header = () => {
         <div className="bg-white mt-2 mb-5 h-[40px] w-[82%] px-3 rounded border-[1px] border-[#4E598C]">
           <input
             placeholder={props.header}
-            className="w-full h-full outline-none placeholder:text-xs"
+            className="w-full h-full text-sm outline-none placeholder:text-sm"
           />
         </div>
       </div>
